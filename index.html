@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+   
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo">Product</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> 
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="home-page">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#features" class="navbar__links" id="features-page">Features</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#contact" class="navbar__links" id="contact-page">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+      <div class="hero__container">
+        <h1 class="hero__heading">Welcome to <span>Our Product</span></h1>
+        <p class="hero__description">Your solution to amazing experiences</p>
+        <button class="main__btn"><a href="#features">Learn More</a></button>
+      </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="main" id="features">
+      <div class="main__container">
+        <div class="main__img--container">
+          <div class="main__img--card">
+            <img src="C:\Users\deepp\OneDrive\Desktop\game\Assesment (For love of writers)\1\images\person.png" alt="Product feature" /></div>
+        </div>
+        <div class="main__content">
+          <h2>Amazing Features</h2>
+          <p>Our product offers exceptional features that will improve your workflow and efficiency. Enjoy a seamless and intuitive experience with our cutting-edge technology.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services Section -->
+    <div class="services" id="services">
+      <h1>Our Services</h1>
+      <div class="services__wrapper">
+        <div class="services__card">
+          <h2>Custom</h2>
+          <p>Technology</p>
+          <div class="services__btn"><button>Get Started</button></div>
+        </div>
+        <div class="services__card">
+          <h2>Are you Ready?</h2>
+          <p>Take the leap</p>
+          <div class="services__btn"><button>Get Started</button></div>
+        </div>
+        <div class="services__card">
+          <h2>Others</h2>
+          <p>100 Combinations</p>
+          <div class="services__btn"><button>Get Started</button></div>
+        </div>
+        <div class="services__card">
+          <h2>Choices</h2>
+          <p>1000's of choices</p>
+          <div class="services__btn"><button>Get Started</button></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+        <div class="footer" id="contact">
+            <h1>Contact Us</h1>
+          <div class="footer_content">  
+            <form id ="contactForm">
+              <input type="text" id="name" placeholder="Name" required />
+              <input type="email" id="email" placeholder="Email" required />
+              <textarea id="message" placeholder="Message" required></textarea>
+              <button type="submit" class="footer_btn">Submit</button>
+              <p id="error-message" class="error-message"></p>
+            </form>
+          </div>
+            <p class="website__rights">© PRODUCT 2025. All rights reserved</p>
+        </div>
+          
+    <script src="app.js"></script>
+  </body>
+</html>
