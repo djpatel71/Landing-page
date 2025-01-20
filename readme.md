@@ -20,5 +20,3 @@ This is a simple, responsive landing page for a fictional product called "MyProd
 ## Features
 - Fully responsive design (mobile-friendly).
 - Form validation using vanilla JavaScript.
-
-# Landing-page
